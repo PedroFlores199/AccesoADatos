@@ -18,8 +18,7 @@ public class Actividad2 {
             while ((caracterLeido = pushbackReader.read()) != -1) {
                 contadorCaracteres++;
                 // Mostrar el caracter leído
-                System.out.print("Caracter leido: " + (char)
-                        caracterLeido);
+                System.out.print("Caracter leido: " + (char) caracterLeido);
                 // Devolver el caracter al flujo de datos
                 pushbackReader.unread(caracterLeido);
                 // Mostrar el caracter devuelto
