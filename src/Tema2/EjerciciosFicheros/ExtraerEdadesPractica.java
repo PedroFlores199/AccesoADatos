@@ -14,7 +14,6 @@ public class ExtraerEdadesPractica {
 
             //Mientras streamTokenizer no este en el final (TT_EOF) que el bucle no pare
             while (streamTokenizer.nextToken() != StreamTokenizer.TT_EOF){
-
                 //Si el token (ttype) es un numero sacamos por pantalla el valor del token con nval (number value)
                 if (streamTokenizer.ttype == StreamTokenizer.TT_NUMBER) {
                     System.out.println("Numero: " + streamTokenizer.nval);
